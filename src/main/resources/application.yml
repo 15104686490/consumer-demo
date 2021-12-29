@@ -1,0 +1,8 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: first-dubbo-consumer
+dubbo:
+  registry:
+    address: zookeeper://81.70.217.242:2181
